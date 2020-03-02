@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/timothelariviere/Git/Test/Mandelbrot/FSharp/MandelbrotFSharp.fsproj": {}
+  },
+  "projects": {
+    "/Users/timothelariviere/Git/Test/Mandelbrot/FSharp/MandelbrotFSharp.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/timothelariviere/Git/Test/Mandelbrot/FSharp/MandelbrotFSharp.fsproj",
+        "projectName": "MandelbrotFSharp",
+        "projectPath": "/Users/timothelariviere/Git/Test/Mandelbrot/FSharp/MandelbrotFSharp.fsproj",
+        "packagesPath": "/Users/timothelariviere/.nuget/packages/",
+        "outputPath": "/Users/timothelariviere/Git/Test/Mandelbrot/FSharp/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/timothelariviere/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CommandLineParser.FSharp": {
+              "target": "Package",
+              "version": "[2.7.82, )"
+            },
+            "FSharp.Collections.ParallelSeq": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[1.0.0-beta0007, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
